@@ -16,7 +16,7 @@ SECRET_KEY = 'your-secret-key'  # Replace this with a strong secret key
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['web-production-99e5.up.railway.app', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = [ ]
 
 
 INSTALLED_APPS = [
