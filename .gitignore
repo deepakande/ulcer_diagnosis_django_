@@ -1,0 +1,27 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Django files
+db.sqlite3
+/media
+/staticfiles
+
+# Environment files
+.env
+venv/
+.env/
+.ulcer_diagnosis_django/
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# OS-specific
+.DS_Store
+
+# Compiled model or data
+*.keras
+*.h5
+*.log
