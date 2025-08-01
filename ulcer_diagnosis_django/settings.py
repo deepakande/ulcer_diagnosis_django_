@@ -16,7 +16,7 @@ SECRET_KEY = 'your-secret-key'  # Replace this with a strong secret key
 
 DEBUG = True
 
-ALLOWED_HOSTS = [ ]
+ALLOWED_HOSTS = ['*']
 
 
 INSTALLED_APPS = [
