@@ -21,3 +21,8 @@ def predict_image_class(image_path):
         return "Unhealthy Antral" if prediction > 0.5 else "Healthy Antral"
     except Exception as e:
         return f"Error in prediction: {e}"
+
+        print("Model inputs:", model.inputs)
+        print("Model outputs:", model.outputs)
+        print(model.summary())
+
